@@ -28,7 +28,7 @@ export default function Todo() {
     const userId = user ? user.id : "";
     const userName = user ? user.username : "Guest";
 
-    const apiUrl = "http://localhost:3000/api/auth";
+    const apiUrl = "https://todo-list-backend-0sul.onrender.com/api/auth";
 
     const handleLogout = () => {
         localStorage.removeItem("user");
