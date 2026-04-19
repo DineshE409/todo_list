@@ -9,7 +9,7 @@ export default function Login() {
     const [message, setMessage] = useState("");
     const navigate = useNavigate();
 
-    const apiUrl = "http://localhost:3000/api/auth";
+    const apiUrl = "https://todo-list-backend-0sul.onrender.com/api/auth";
 
     const handleLogin = (e) => {
         e.preventDefault();

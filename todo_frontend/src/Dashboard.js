@@ -14,7 +14,7 @@ export default function Dashboard() {
     const [error, setError] = useState("");
     const navigate = useNavigate();
 
-    const apiUrl = "http://localhost:3000/api/auth";
+    const apiUrl = "https://todo-list-backend-0sul.onrender.com/api/auth";
     const userStr = localStorage.getItem("user");
     const user = userStr ? JSON.parse(userStr) : null;
     const userId = user ? user.id : "";
